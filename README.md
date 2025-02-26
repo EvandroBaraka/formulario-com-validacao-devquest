@@ -27,8 +27,8 @@ Esta página deve conter um formulário, e o formulário deve ter uma validaçã
 
 ### Links
 
-- URL Solução: [https://github.com/EvandroBaraka/huddle-landing-page.git](https://github.com/EvandroBaraka/huddle-landing-page.git)
-- URL Site: [https://evandrobaraka.github.io/huddle-landing-page/](https://evandrobaraka.github.io/huddle-landing-page/)
+- URL Solução: [https://github.com/EvandroBaraka/formulario-com-validacao-devquest](https://github.com/EvandroBaraka/formulario-com-validacao-devquest)
+- URL Site: [https://evandrobaraka.github.io/formulario-com-validacao-devquest/](https://evandrobaraka.github.io/formulario-com-validacao-devquest/)
 
 ## Meu Processo
 
