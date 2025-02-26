@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.conteudo {
+    background: url(../img/bg-repeat.jpg) fixed;
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 60px;
+}
+
+.mensagem {
+    color: #fff;
+    width: 300px;
+
+    & h1 {
+        font-size: 20px;
+        font-weight: 900;
+        padding-bottom: 11px;
+    }
+
+    & p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+
+.div-formulario {
+    width: 340px;
+    height: 378px;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & .formulario {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 15px;
+        font-weight: 400;
+
+    }
+}
+
+.inputs {
+    height: 35px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+textarea[name="mensagem"] {
+    height: 100px;
+    resize: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#btn-enviar {
+    background-color: #3CCC87;
+    color: #fff;
+    border: none;
+    height: 41px;
+}
+
+.inputs.preenchido {
+    border-color: #00C22B;
+}
+
+.inputs.vazio {
+    border-color: #F52E2E;
+}
+
+.div-input {
+    position: relative;
+}
+
+.div-input.vazio::after {
+    content: 'campo obrigatório';
+    color: #F52E2E;
+    font-size: 8px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+} 

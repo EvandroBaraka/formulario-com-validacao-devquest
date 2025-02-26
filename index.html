@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio HTML + CSS + JS Intermediário</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section class="conteudo">
+            <div class="mensagem">
+                <h1>FICOU COM DÚVIDA? <br>NOS MANDE UMA MENSAGEM!</h1>
+                <p>Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos
+                    de 24h.</p>
+            </div>
+
+            <div class="div-formulario">
+                <form class="formulario" action="" method="get">
+                    <div class="div-input">
+                        <input class="inputs" type="text" name="nome" id="nome" placeholder="Nome completo *">
+                    </div>
+                    <div class="div-input">
+                        <input class="inputs" type="email" name="email" id="email" placeholder="E-mail *">
+                    </div>
+                    <div class="div-input">
+                        <input class="inputs" type="tel" name="telefone" id="telefone"  placeholder="Telefone *">
+                    </div>
+                    <div class="div-input">
+                        <textarea class="inputs" name="mensagem" id="mensagem" placeholder="Mensagem *"></textarea>
+                    </div>
+                    <p>* Campos obrigatórios</p>
+                    <input class="inputs" type="submit" id="btn-enviar" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
